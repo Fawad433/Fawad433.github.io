@@ -1,0 +1,196 @@
+body
+{
+  background-color: white;
+  text-align: center;
+  margin: 0;
+  font-family: 'Frank Ruhl Libre', serif;
+
+}
+
+.top-container
+{
+  position: absolute;
+  background-color: #FFEBAD;
+  padding-top: 150px;
+  width:100%;
+  height: 700px;
+}
+
+.middle-container
+{
+  margin: 100px 0;
+  padding-top: 50px;
+  position: absolute;
+  /*background-color: #FFEBAD; */
+  width:100%;
+  top: 800px;
+  height:500px;
+}
+
+.bottom-container
+{
+
+  position: absolute;
+  /*background-color: #FFEBAD;*/
+  top: 2200px;
+  width:100%;
+  height: 200px;
+}
+
+.intro
+{
+  width: 30%;
+  margin: auto;
+}
+
+p
+
+{
+  line-height: 2;
+}
+a
+{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+hr
+
+{
+  margin: 80px auto;
+  border-style: dotted none none none;
+  border-color: #81CACF;
+  border-width: thick;
+  width: 200px;
+
+}
+
+h1
+{
+  font-size: 560%;
+  font-family: 'Great Vibes', cursive;
+  line-height: 1;
+  color: #66BFBF;
+  margin: 0;
+  display: inline-block
+  position: absolute;
+  left:45%;
+  top:80px;
+}
+
+h2
+{
+  font-size: 200%;
+  padding-top: 50px;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3
+{
+  padding-top: 0;
+  color: #66BFBF;
+}
+.main-para
+{
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 200%;
+  margin: 0;
+  display: inline-block;
+}
+
+
+.bottom-cloud
+{
+  position: absolute;
+  left: 25%;
+  top: 350px;
+}
+
+.top-cloud
+{
+  position: absolute;
+  left: 70%;
+  top: 40px;
+}
+
+.mountain
+{
+  position: absolute;
+  left: 35%;
+  top: 400px;
+}
+
+.skill-image
+{
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.profile-image
+{
+  width:200px;
+  height:200px;
+  padding-top: 100px;
+}
+
+.main-heading
+{
+  font-size: 200%;
+  margin: : 0;
+  padding-top: 0;
+  color: #66BFBF;
+  font-weight: normal;
+
+}
+
+.skills-table
+{
+  padding-top: 50px;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  margin: 0;
+  padding: 0;
+}
+
+.skills
+{
+  width:50%;
+  height:50%;
+  margin-left: 30%;
+}
+
+.bottom-bar {
+  background-color: #66BFBF;
+  overflow:hidden;
+}
+
+/* This section is for the top bar */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #66BFBF;
+  overflow:hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #7FBCD2;
+  color: white;
+}
